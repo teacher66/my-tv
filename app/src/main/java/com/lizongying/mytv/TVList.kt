@@ -6,6 +6,8 @@ object TVList {
     }
 
     private var mappingLogo = mapOf(
+        "CCTV4K 超高清" to "https://resources.yangshipin.cn/assets/oms/image/202306/3e9d06fd7244d950df5838750f1c6ac3456e172b51caca2c16d2282125b111e8.png?imageMogr2/format/webp",
+        "CCTV8K 超高清" to "https://static.wikia.nocookie.net/logos/images/6/69/CCTV8K.png/revision/latest/scale-to-width-down/120?cb=20230104110835&path-prefix=vi",
         "CCTV1 综合" to "https://resources.yangshipin.cn/assets/oms/image/202306/d57905b93540bd15f0c48230dbbbff7ee0d645ff539e38866e2d15c8b9f7dfcd.png?imageMogr2/format/webp",
         "CCTV2 财经" to "https://resources.yangshipin.cn/assets/oms/image/202306/20115388de0207131af17eac86c33049b95d69eaff064e55653a1b941810a006.png?imageMogr2/format/webp",
         "CCTV3 综艺" to "https://resources.yangshipin.cn/assets/oms/image/202306/7b7a65c712450da3deb6ca66fbacf4f9aee00d3f20bd80eafb5ada01ec63eb3a.png?imageMogr2/format/webp",
@@ -24,6 +26,12 @@ object TVList {
         "CCTV15 音乐" to "https://resources.yangshipin.cn/assets/oms/image/202306/2ceee92188ef684efe0d8b90839c4f3ad450d179dc64d59beff417059453af47.png?imageMogr2/format/webp",
         "CCTV16 奥林匹克" to "https://resources.yangshipin.cn/assets/oms/image/202306/53793fa7bacd3a93ff6dc5d2758418985e1f952a316c335d663b572d8bdcd74d.png?imageMogr2/format/webp",
         "CCTV17 农业农村" to "https://resources.yangshipin.cn/assets/oms/image/202306/ddef563072f8bad2bea5b9e52674cb7b4ed50efb20c26e61994dfbdf05c1e3c0.png?imageMogr2/format/webp",
+        "CGTN" to "https://resources.yangshipin.cn/assets/oms/image/202306/a72dff758ca1c17cd0ecc8cedc11b893d208f409d5e6302faa0e9d298848abc3.png?imageMogr2/format/webp",
+        "CGTN 法语频道" to "https://resources.yangshipin.cn/assets/oms/image/202306/a8d0046a47433d952bf6ed17062deb8bd2184ba9aec0f7781df6bf9487a3ffcf.png?imageMogr2/format/webp",
+        "CGTN 俄语频道" to "https://resources.yangshipin.cn/assets/oms/image/202306/bf0a820893cbaf20dd0333e27042e1ef9c8806e5b602b6a8c95af399db0bc77a.png?imageMogr2/format/webp",
+        "CGTN 阿拉伯语频道" to "https://resources.yangshipin.cn/assets/oms/image/202306/2e44e2aa3e7a1cedf07fd0ae59fe69e86a60a2632660a006e3e9e7397b2d107e.png?imageMogr2/format/webp",
+        "CGTN 西班牙语频道" to "https://resources.yangshipin.cn/assets/oms/image/202309/7c337e3dbe64402ec7e4678a619a4a6d95144e42f35161181ff78e143b7cf67a.png?imageMogr2/format/webp",
+        "CGTN 纪录频道" to "https://resources.yangshipin.cn/assets/oms/image/202309/74d3ac436a7e374879578de1d87a941fbf566d39d5632b027c5097891ed32bd5.png?imageMogr2/format/webp",
         "风云剧场" to "https://resources.yangshipin.cn/assets/oms/image/202306/4d549e53e6d0f632d5a633d1945280797b153e588f919221a07faa869812cc89.png?imageMogr2/format/webp",
         "第一剧场" to "https://resources.yangshipin.cn/assets/oms/image/202306/a556bd7d93ce65e18f243a8892b5604f4faa994a4897315914216a710a706208.png?imageMogr2/format/webp",
         "怀旧剧场" to "https://resources.yangshipin.cn/assets/oms/image/202306/5661bd04fecdb6e899f801147a22ab5d3a475bf2b62e30aec2c0023190ebc9b1.png?imageMogr2/format/webp",
@@ -60,6 +68,8 @@ object TVList {
         "海南卫视" to "https://resources.yangshipin.cn/assets/oms/image/202306/6e060391fde0469801fc3d84dbf204b4f8d650d251f17d7595a6964c0bb99e81.png?imageMogr2/format/webp",
     )
     private var mappingEPG = mapOf(
+        "CCTV4K 超高清" to "600002264",
+        "CCTV8K 超高清" to "600156816",
         "CCTV1 综合" to "600001859",
         "CCTV2 财经" to "600001800",
         "CCTV3 综艺" to "600001801",
@@ -78,6 +88,12 @@ object TVList {
         "CCTV15 音乐" to "600001815",
         "CCTV16 奥林匹克" to "600098637",
         "CCTV17 农业农村" to "600001810",
+        "CGTN" to "600014550",
+        "CGTN 法语频道" to "600084704",
+        "CGTN 俄语频道" to "600084758",
+        "CGTN 阿拉伯语频道" to "600084782",
+        "CGTN 西班牙语频道" to "600084744",
+        "CGTN 记录频道" to "600084781",
         "风云剧场" to "600099658",
         "第一剧场" to "600099655",
         "怀旧剧场" to "600099620",
@@ -114,6 +130,8 @@ object TVList {
         "海南卫视" to "600002506",
     )
     private var mappingVideo = mapOf(
+        "CCTV4K 超高清" to arrayOf("600002264", "2000266303"),
+        "CCTV8K 超高清" to arrayOf("600156816", "2020603421"),
         "CCTV1 综合" to arrayOf("600001859", "2000210103"),
         "CCTV2 财经" to arrayOf("600001800", "2000203603"),
         "CCTV3 综艺" to arrayOf("600001801", "2000203803"),
@@ -132,6 +150,12 @@ object TVList {
         "CCTV15 音乐" to arrayOf("600001815", "2000205003"),
         "CCTV16 奥林匹克" to arrayOf("600098637", "2012375003"),
         "CCTV17 农业农村" to arrayOf("600001810", "2000204203"),
+        "CGTN" to arrayOf("600014550", "2001656803"),
+        "CGTN 法语频道" to arrayOf("600084704", "2010153503"),
+        "CGTN 俄语频道" to arrayOf("600084758", "2010152603"),
+        "CGTN 阿拉伯语频道" to arrayOf("600084782", "2010155203"),
+        "CGTN 西班牙语频道" to arrayOf("600084744", "2010152503"),
+        "CGTN 记录频道" to arrayOf("600084781", "2010155403"),
         "风云剧场" to arrayOf("600099658", "2012513603"),
         "第一剧场" to arrayOf("600099655", "2012514403"),
         "怀旧剧场" to arrayOf("600099620", "2012511203"),
@@ -190,6 +214,8 @@ CCTV14 少儿,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226193/inde
 CCTV15 音乐,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225785/index.m3u8
 CCTV16 奥林匹克,http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226921/index.m3u8;http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226921/index.m3u8
 CCTV17 农业农村,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226198/index.m3u8
+CCTV4K 超高清,
+CCTV8K 超高清,
 风云剧场,http://dbiptv.sn.chinamobile.com/PLTV/88888893/224/3221226950/index.m3u8
 第一剧场,http://dbiptv.sn.chinamobile.com/PLTV/88888893/224/3221226959/index.m3u8
 怀旧剧场,http://dbiptv.sn.chinamobile.com/PLTV/88888893/224/3221226972/index.m3u8
@@ -225,7 +251,13 @@ CCTV17 农业农村,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/322122619
 四川卫视,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225768/index.m3u8;http://39.134.24.166/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225768/index.m3u8
 东南卫视,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226341/index.m3u8;http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225766/index.m3u8
 海南卫视,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226465/index.m3u8;http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225769/index.m3u8
-
+国际频道
+CGTN,http://live.cgtn.com/1000/prog_index.m3u8
+CGTN 法语频道,https://livefr.cgtn.com/1000f/prog_index.m3u8
+CGTN 俄语频道,http://liveru.cgtn.com/1000r/prog_index.m3u8
+CGTN 阿拉伯语频道,http://livear.cgtn.com/1000a/prog_index.m3u8
+CGTN 西班牙语频道,http://livees.cgtn.com/500e/prog_index.m3u8;http://livees.cgtn.com/1000e/prog_index.m3u8
+CGTN 纪录频道,https://livedoc.cgtn.com/500d/prog_index.m3u8
         """.trimIndent()
 
         val map: MutableMap<String, MutableList<TV>> = mutableMapOf()
@@ -246,7 +278,7 @@ CCTV17 农业农村,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/322122619
             val titleMap = map[channel] ?: mutableListOf()
 
             val tv = TV(
-                count+1,
+                count,
                 p[0],
                 p[1].split(";").map { it.trim() }
             )
